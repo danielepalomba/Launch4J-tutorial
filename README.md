@@ -19,11 +19,11 @@ If, on the other hand, Java is not installed on your pc, download the version yo
 As a first step, access your pc's environment variables control panel.
 
 <p align="center">
-  <img alt="img" width="30%" src="IMG/photo1.png">
+  <img alt="img" width="50%" src="IMG/photo1.png">
 </p>
 and then
 <p align="center">
-  <img alt="img" width="30%" src="IMG/photo2.png">
+  <img alt="img" width="50%" src="IMG/photo2.png">
 </p>
 Now you should see the following window. In the Variable name field, enter JAVA_HOME. In the Variable Value field instead you must enter the path to the java installation folder, usually it is:
 
@@ -32,7 +32,7 @@ C:\Program Files\Java\jdk-{your version}
 ```
 Copy it, enter it, and press enter. You have now created the JAVA_HOME variable.
 <p align="center">
-  <img alt="img" width="30%" src="IMG/photo3.png">
+  <img alt="img" width="50%" src="IMG/photo3.png">
 </p>
 
 The last step is to add the variable to the system path. To do this find among the system variables, the variable **path**, click it twice, you should see this window appear. 
@@ -43,7 +43,7 @@ Click on new and enter:
 ```
 
 <p align="center">
-  <img alt="img" width="30%" src="IMG/photo4.png">
+  <img alt="img" width="50%" src="IMG/photo4.png">
 </p>
 
 To verify the successful setting. Open the terminal and type:
@@ -54,14 +54,14 @@ java -version
 You should see this:
 
 <p align="center">
-  <img alt="img" width="30%" src="IMG/photo5.png">
+  <img alt="img" width="50%" src="IMG/photo5.png">
 </p>
 
 ## Step 4: Create the file .exe 
 
 This is it! First thing we are going to open Launch4J. 
 <p align="center">
-  <img alt="img" width="40%" src="IMG/photo6.png">
+  <img alt="img" width="50%" src="IMG/photo6.png">
 </p>
 
 Perfect, we are in front of the main screen. Let's start setting up our fields (*the essential ones*):
@@ -74,7 +74,7 @@ Perfect, we are in front of the main screen. Let's start setting up our fields (
 That's all, let's move to the **Classpath** section:
 
 <p align="center">
-  <img alt="img" width="40%" src="IMG/photo7.png">
+  <img alt="img" width="50%" src="IMG/photo7.png">
 </p>
 
 Click on *Custom classpth* and in the field *Main class* enter the path to your .jar file.
@@ -82,7 +82,7 @@ Click on *Custom classpth* and in the field *Main class* enter the path to your 
 Let's move to the **Header** section:
 
 <p align="center">
-  <img alt="img" width="40%" src="IMG/photo8.png">
+  <img alt="img" width="50%" src="IMG/photo8.png">
 </p>
 
 If your project has GUI, then set *Header type* to GUI, otherwise set to Console.
@@ -90,7 +90,7 @@ If your project has GUI, then set *Header type* to GUI, otherwise set to Console
 That's all, let's move to the **JRE** section:
 
 <p align="center">
-  <img alt="img" width="40%" src="IMG/photo9.png">
+  <img alt="img" width="50%" src="IMG/photo9.png">
 </p>
 
 This section is critical to the proper operation and deployment of the application. The JRE paths field indicates where the application should look for the JRE when it is started. It is preferable to leave the default setting so that the JRE will be found via environment variables. Obviously the pc on which the application is launched must have Java installed and properly set up. 
